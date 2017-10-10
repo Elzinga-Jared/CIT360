@@ -1,0 +1,165 @@
+
+html {
+    background: #666633; 
+    margin: 8px;
+    
+}
+body {
+    margin-top: 8px;
+    font-family: 'Orbitron', sans-serif;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: grey;
+    border: 4px solid black;
+}
+header {
+    margin: 0;
+    border-bottom: 8px solid black;
+    padding: .5em 2em;
+    background: #FFFFCC url('view/images.jpg') no-repeat right top;
+}
+header h1, h4 {
+    color: darkred;
+    margin: 0;
+    padding: 0 0 0 5em;
+}
+header p {
+    margin: 0;
+    padding: 1em 0 0 12em;
+
+}
+header ul {
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+
+main {
+    margin: 18px;
+    padding: 0px 0em 17em;
+    text-align: right;
+    background: url('view/x-maxx.jpg')left;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 8px double black;
+}
+footer p {
+    text-align: center;
+    font-size: 90%;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 300%;
+    margin: 0;
+    padding: .5em 0 .25em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .25em ;
+    font-weight: bold;
+}
+h1, h2 {
+    color: #CDDC39;
+    font-weight: bold;
+}
+p {
+    margin: .5em 0 .5em 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+nav ul li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #3333CC;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #3333CC;
+}
+
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+}
+td, th {
+    border: 4px dashed #001963;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+#no_border {
+    border: 0px;
+}
+#no_border td {
+    border: 0px;
+}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+.right {
+    text-align: right;
+}
+.error {
+    color: red;
+}
+.message {
+    margin-left: .5em;
+    width: 15em;
+}
+
+#aligned {
+    margin: .5em 0 2em;
+}
+#aligned label {
+    width: 8em;
+    margin-top: .2em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    float: left;
+}
+#aligned input {
+    float: left;
+}
+#aligned input[text] {
+    width: 15em;
+}
+#aligned .message {
+    margin-left: .5em;
+    width: 15em;
+}
